@@ -1,0 +1,10 @@
+iOS      17         32
+         16         17
+         15         12
+Android  None       11
+         13         10
+         Global     10
+         11          2
+iOS      14          2
+         JP          2
+         None        2
