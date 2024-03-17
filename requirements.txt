@@ -1,0 +1,4 @@
+pandas==2.2.1
+Scrapy==2.11.1
+selenium==4.18.1
+w3lib==2.1.2
