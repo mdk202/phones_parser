@@ -12,8 +12,7 @@ class ParserOzonPipeline:
     def close_spider(self, spider):
         df = pd.DataFrame(self.items)
         distribution = df.value_counts()
-        path = r'D:\result_2.txt'
-        with open(path, 'w') as file:
+        with open('result.txt', 'w') as file:
             result = distribution.to_string(header=False)
             file.write(result)
         print(result)
